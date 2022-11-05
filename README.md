@@ -6,6 +6,19 @@ This project is essentially a tiny fork of the [rpi-eink-clock](https://github.c
 ### Why: 
 Daylight Savings Sucks. But Distributed teams are great. However this means constantly having to think what time it is for someone else when scheduling calls. Here's an overengineered solution: have all the time zones on a physical clock next to you that you can switch between without leaving your terminal. Sure you could go to google and type 10 am EST to IST, or... press button two on your Raspberry Pi and have it displayed right there. 
 
+1. IST
+![WhatsApp Image 2022-11-06 at 05 09 34](https://user-images.githubusercontent.com/20535340/200147177-35026652-b415-41c9-8f0f-0e54dd629fe7.jpeg)
+
+2. EST 
+![WhatsApp Image 2022-11-06 at 05 09 34 (1)](https://user-images.githubusercontent.com/20535340/200147186-e9fc0ad7-a4e2-401b-97f4-45c09d55fb2c.jpeg)
+
+3. UK
+![WhatsApp Image 2022-11-06 at 05 09 34 (2)](https://user-images.githubusercontent.com/20535340/200147188-96cd6b90-aad9-4f27-b158-10c3f16300a9.jpeg)
+
+4. PST
+![WhatsApp Image 2022-11-06 at 05 09 33](https://user-images.githubusercontent.com/20535340/200147192-aedd1582-6d6e-4948-979b-0f4096b9f496.jpeg)
+
+
 ### Hardware Required: 
 - RaspberryPi 4
 - Waveshare e-ink display 2.7 inch (color or black and white)
