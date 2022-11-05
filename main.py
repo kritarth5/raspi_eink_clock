@@ -212,3 +212,7 @@ class Display:
         elif PIN_BTN4 == pin:
             self.mode = DISPMODE_PST            
             self.draw_pst_data()           
+
+if __name__ == '__main__':
+    display = Display()
+     display.start(DISPMODE_IST)
