@@ -56,7 +56,7 @@ class Display:
     epd = None
     fonts = None
     #set initial mode. This should be India Time.
-    mode = DISPMODE_IND
+    mode = DISPMODE_IST
     
     #this should be removed.
     nobeldata = None
