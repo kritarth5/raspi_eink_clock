@@ -21,7 +21,7 @@ import RPi.GPIO as GPIO
 ####################
 
 #Use saved font as the font for the clock
-timefont = os.path.join( os.path.realpath(os.getcwd()), 'CoffeeHealing.ttf')
+timefont = os.path.join( os.path.realpath("/home/pi/projects/raspi_eink_clock/"), 'CoffeeHealing.ttf')
 
 #save font as a font object, with a large fontsize
 timefont = ImageFont.truetype(timefont, 35)
