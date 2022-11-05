@@ -215,4 +215,4 @@ class Display:
 
 if __name__ == '__main__':
     display = Display()
-     display.start(DISPMODE_IST)
+    display.start(DISPMODE_IST)
