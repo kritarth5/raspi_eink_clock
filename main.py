@@ -97,7 +97,7 @@ class Display:
                 self.draw_ist_data()                    
             self.sleep_until_next_min()
 
-    def get_time():
+    def get_time(self):
         """
         Function to get times from 4 timezones at that second
         """
@@ -130,7 +130,7 @@ class Display:
         updated on every button press. 
         """
         #get ist time
-        time = get_time()
+        time = self.get_time()
         time_now = time[0]
         # Create a new image object (1 bit color and dimensions of the e ink screen. )
         ist_image = Image.new('1', (self.epd.height, self.epd.width), 255)  # 255: clear the frame
@@ -145,7 +145,7 @@ class Display:
         updated on every button press. 
         """
         #get ist time
-        time = get_time()
+        time = self.get_time()
         time_now = time[2]
         # Create a new image object (1 bit color and dimensions of the e ink screen. )
         est_image = Image.new('1', (self.epd.height, self.epd.width), 255)  # 255: clear the frame
@@ -160,7 +160,7 @@ class Display:
         updated on every button press. 
         """
         #get ist time
-        time = get_time()
+        time = self.get_time()
         time_now = time[3]
         # Create a new image object (1 bit color and dimensions of the e ink screen. )
         uk_image = Image.new('1', (self.epd.height, self.epd.width), 255)  # 255: clear the frame
@@ -175,7 +175,7 @@ class Display:
         updated on every button press. 
         """
         #get ist time
-        time = get_time()
+        time = self.get_time()
         time_now = time[1]
         # Create a new image object (1 bit color and dimensions of the e ink screen. )
         pst_image = Image.new('1', (self.epd.height, self.epd.width), 255)  # 255: clear the frame
