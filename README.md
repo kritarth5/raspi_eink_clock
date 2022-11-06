@@ -49,5 +49,5 @@ Daylight Savings Sucks. But Distributed teams are great. However this means cons
 1. Official Waveshare Electronic paper driver/libraries (epdconfig.py and epdconfig.py) are available under the MIT License.
 2. The official Raspberry Pi Logo used in raspberry.bmp is a (TM) of Raspberry Pi Foundation (https://www.raspberrypi.org/) and available under the Raspberry Pi Trademark rules and brand guidelines
 3. All respective copyrights on earlier versions of this code is reserved with their [originators](https://github.com/emanueleg) adding onto code that has come before.
-4. Feel free to use this code liberally.
+4. All rights reserved under GNU something something. Copy Left mumble mumble. (Feel free to use this code liberally.)
 
